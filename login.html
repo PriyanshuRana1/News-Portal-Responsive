@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="home.html">
+    <link rel="stylesheet" href="aboutus.html">
+    <link rel="stylesheet" href="gallery.html">
+    <link rel="stylesheet" href="imagegallery.html">
+    <link rel="stylesheet" href="contact.html">
+    <link rel="stylesheet" href="blog.html">
+    <link rel="stylesheet" href="login.html">
+
+    <style>
+        :root{
+            --mycolor: maroon;
+            --txtmycolor: white;
+        }
+        .bg-mycolor{
+            background: var(--mycolor);
+        }
+        .txt-mycolor{
+            color: var(--txtmycolor);
+        }
+        .a{
+            padding-left: 18%;
+        }
+        .b{
+            padding-left: 0%;
+            padding-right: 10%;
+        }
+        .c{
+            font-family: Old English Text MT;
+            margin-top: 10px;
+        }
+        .d{
+            font-size: 45px;
+            color: maroon;
+        }
+        .e{
+            min-height: 40px;
+            background: #f8f9fa;
+        }
+        .f{
+            padding-left: 20%;
+            /* padding-right: 10%; */
+            /* margin: 1px; */
+        }
+        .btt{
+          background: maroon;
+          color: white;
+        }
+        .btt:hover{
+          background: white;
+          color: maroon;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+         <div class="col-lg-7 col-sm-12 bg-mycolor txt-mycolor a fs-5"><i class="fa-solid fa-envelope"></i> priyanshurana833@gmail.com</div>
+         <div class="col-lg-5 col-sm-12 text-center bg-mycolor txt-mycolor b fs-5">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+         </div>
+        </div>
+        <div class="row">
+            <di class="col-lg-12 text-dark text-center c fs-2 "><b>Bhaskar </b> <b style="color: maroon;" class="fs-1">Times </b> <i class="fa-solid fa-clock d"></i></di>
+        </div>
+
+        <div class="row e">
+            <div class="col-sm-12 f">
+                <!-- MENU START -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="aboutus.html"><i class="fa-solid fa-circle-info"></i> About US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="news.html"><i class="fa-solid fa-newspaper"></i> News</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="gallery.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-image"></i> Gallery
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="imagegallery.html">Image Gallery</a></li>
+                              <li><a class="dropdown-item disabled"  href="#">Video Gallery</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fa-solid fa-address-book"></i> Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html"><i class="fa-solid fa-blog"></i> Blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="feedback.html"><i class="fa-solid fa-comment"></i> Feedback</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+                  <!-- MENU END -->
+        </div>
+        <div class="row p-0" >
+          <div class="col-sm-12 text-center fs-1 i">Log <b style="color: maroon;">In <i class="fa-solid fa-right-to-bracket"></i></b>
+          </div>
+        </div>
+        <div class="row pb-3">
+          <!-- LOGIN FORM START -->
+          <form class="row g-3 " style="padding-left: 20%;" >
+            <div class="col-md-5">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-5">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-sm-12 col-md-10">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-5">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-5">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            
+            <div class="col-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-10">
+              <button type="submit" class="btn btt">Sign in</button>
+            </div>
+          </form>
+
+
+          <!-- LOGIN FORM END -->
+        </div>
+
+        <!-- FOOTER START -->
+      <div class="row k bg-mycolor mt-4 p-4">
+        <div class="col-md text-light text-center c fs-2 "><b>Bhaskar <br> </b> <b style="color: black; font-size: 50px;">Times </b> <i class="fa-solid fa-clock " style="color: white; font-size: 50px;"></i></div>
+        <div class="col-md-4 col-sm-12 text-center text-light">Bhaskar times creates and publishes online news and information content which informs educate and make us aware about what is happening in the world at the real time.</div>
+        <div class="col-md-4 col-sm-12 text-center ps-5">
+          <img src="images/certification.jpg" width="250px" height="250px" alt="">
+        </div>
+      </div>
+      <!-- FOOTER END -->
+
+      <div class="row mt-1 l bg-mycolor">
+        <div class="ps-5 col-md-6 col-sm-12 fs-5">&copy; BHASKAR <b class="text-light">TIMES</b> AND PUBLICATION</div>
+        <div class="ps-5 col-md-6 col-sm-12 fs-5">&copy; Developed By <b class="text-light">Priyanshu</b></div>
+
+      </div>
+    </div>
+        
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
